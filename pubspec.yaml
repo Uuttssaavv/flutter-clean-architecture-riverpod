@@ -1,0 +1,43 @@
+name: flutter_project
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  auto_route: ^5.0.0
+  connectivity_plus: ^2.3.9
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.2
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+  shared_preferences: ^2.0.17
+  state_notifier: ^0.7.2+1
+
+dev_dependencies:
+  auto_route_generator: ^5.0.0
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.2.0
+  http_mock_adapter: ^0.3.3
+  json_serializable: ^6.5.3
+  mocktail: ^0.3.0
+  state_notifier_test: ^0.0.9
+  test_coverage_badge: ^0.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - test/features/dashboard/data/datasource/
