@@ -15,16 +15,21 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
   ) : super(const DashboardState.initial());
 
   bool get isFetching =>
-      state.state != DashboardConcreteState.loading && state.state != DashboardConcreteState.fetchingMore;
+      state.state != DashboardConcreteState.loading &&
+      state.state != DashboardConcreteState.fetchingMore;
 
   Future<void> fetchProducts() async {
-    if (isFetching && state.state != DashboardConcreteState.fetchedAllProducts) {
+    if (isFetching &&
+        state.state != DashboardConcreteState.fetchedAllProducts) {
       state = state.copyWith(
-        state: state.page > 0 ? DashboardConcreteState.fetchingMore : DashboardConcreteState.loading,
+        state: state.page > 0
+            ? DashboardConcreteState.fetchingMore
+            : DashboardConcreteState.loading,
         isLoading: true,
       );
 
-      final response = await dashboardRepository.fetchProducts(skip: state.page * PRODUCTS_PER_PAGE);
+      final response = await dashboardRepository.fetchProducts(
+          skip: state.page * PRODUCTS_PER_PAGE);
 
       updateStateFromResponse(response);
     } else {
@@ -37,9 +42,12 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
   }
 
   Future<void> searchProducts(String query) async {
-    if (isFetching && state.state != DashboardConcreteState.fetchedAllProducts) {
+    if (isFetching &&
+        state.state != DashboardConcreteState.fetchedAllProducts) {
       state = state.copyWith(
-        state: state.page > 0 ? DashboardConcreteState.fetchingMore : DashboardConcreteState.loading,
+        state: state.page > 0
+            ? DashboardConcreteState.fetchingMore
+            : DashboardConcreteState.loading,
         isLoading: true,
       );
 
@@ -58,7 +66,8 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
     }
   }
 
-  void updateStateFromResponse(Either<AppException, PaginatedResponse<dynamic>> response) {
+  void updateStateFromResponse(
+      Either<AppException, PaginatedResponse<dynamic>> response) {
     response.fold((failure) {
       state = state.copyWith(
         state: DashboardConcreteState.failure,
