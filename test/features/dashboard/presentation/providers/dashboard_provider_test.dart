@@ -390,6 +390,7 @@ void main() {
   test('Should reset state to initial', () {
     notifier.resetState();
 
+    // ignore: invalid_use_of_protected_member
     expect(notifier.state, const DashboardState.initial());
   });
 }
