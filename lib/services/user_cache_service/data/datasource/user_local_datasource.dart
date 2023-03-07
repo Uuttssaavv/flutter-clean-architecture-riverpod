@@ -35,14 +35,14 @@ class UserLocalDatasource extends UserDataSource {
         ),
       );
     }
-    final userJson = jsonDecode('$data');
+    final userJson = jsonDecode(data.toString());
 
     return Right(User.fromJson(userJson));
   }
 
   @override
   Future<bool> saveUser({required User user}) async {
-    return await stroageService.set(storageKey, user.toJson().toString());
+    return await stroageService.set(storageKey, jsonEncode(user.toJson()));
   }
 
   @override
