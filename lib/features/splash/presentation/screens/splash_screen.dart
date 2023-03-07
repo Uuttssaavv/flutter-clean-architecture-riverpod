@@ -33,7 +33,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:Theme.of(context).backgroundColor,
+      backgroundColor: Theme.of(context).backgroundColor,
       body: const Center(
         child: Text(
           'Splash Screen',

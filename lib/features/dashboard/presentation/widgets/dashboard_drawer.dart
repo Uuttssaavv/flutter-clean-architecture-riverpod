@@ -59,7 +59,9 @@ class DashboardDrawer extends ConsumerWidget {
                   },
                   child: CircleAvatar(
                     child: Icon(
-                      Theme.of(context).brightness == Brightness.dark ? Icons.light_mode : Icons.dark_mode,
+                      Theme.of(context).brightness == Brightness.dark
+                          ? Icons.light_mode
+                          : Icons.dark_mode,
                       color: Theme.of(context).iconTheme.color,
                     ),
                   ),

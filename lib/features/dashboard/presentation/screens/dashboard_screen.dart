@@ -59,7 +59,8 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
         //show Snackbar on failure
         if (next.state == DashboardConcreteState.fetchedAllProducts) {
           if (next.message.isNotEmpty) {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(next.message.toString())));
+            ScaffoldMessenger.of(context)
+                .showSnackBar(SnackBar(content: Text(next.message.toString())));
           }
         }
       }),
@@ -125,7 +126,9 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
                           itemBuilder: (context, index) {
                             final product = state.productList[index];
                             return ListTile(
-                              leading: CircleAvatar(backgroundImage: NetworkImage(product.thumbnail)),
+                              leading: CircleAvatar(
+                                  backgroundImage:
+                                      NetworkImage(product.thumbnail)),
                               title: Text(
                                 product.title,
                                 style: Theme.of(context).textTheme.bodyLarge,
