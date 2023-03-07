@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project/routes/app_route.gr.dart';
+import 'package:flutter_project/services/user_cache_service/domain/providers/current_user_provider.dart';
 import 'package:flutter_project/services/user_cache_service/domain/providers/user_cache_provider.dart';
 import 'package:flutter_project/shared/theme/app_theme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

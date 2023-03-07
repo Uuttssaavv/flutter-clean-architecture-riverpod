@@ -9,6 +9,7 @@ final userDatasourceProvider = Provider.family<UserDataSource, StroageService>(
   (_, networkService) => UserLocalDatasource(networkService),
 );
 
+
 final userLocalRepositoryProvider = Provider<UserRepository>((ref) {
   final storageService = ref.watch(storageServiceProvider);
 
@@ -18,3 +19,4 @@ final userLocalRepositoryProvider = Provider<UserRepository>((ref) {
 
   return respository;
 });
+
