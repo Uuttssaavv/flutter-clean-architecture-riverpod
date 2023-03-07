@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_project/features/dashboard/presentation/providers/dashboard_state_provider.dart';
 import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:flutter_project/features/dashboard/presentation/widgets/dashboard_drawer.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class DashboardScreen extends ConsumerStatefulWidget {
@@ -51,14 +52,14 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     final state = ref.watch(dashboardNotifierProvider);
+
     ref.listen(
       dashboardNotifierProvider.select((value) => value),
       ((DashboardState? previous, DashboardState next) {
         //show Snackbar on failure
         if (next.state == DashboardConcreteState.fetchedAllProducts) {
           if (next.message.isNotEmpty) {
-            ScaffoldMessenger.of(context)
-                .showSnackBar(SnackBar(content: Text(next.message.toString())));
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(next.message.toString())));
           }
         }
       }),
@@ -67,8 +68,22 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
       appBar: AppBar(
         title: isSearchActive
             ? TextField(
-                decoration: const InputDecoration(
+                style: Theme.of(context).textTheme.bodyMedium,
+                decoration: InputDecoration(
                   hintText: 'Search here',
+                  hintStyle: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.onBackground,
+                      ),
+                  focusedBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context).colorScheme.onBackground,
+                    ),
+                  ),
+                  border: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context).colorScheme.onBackground,
+                    ),
+                  ),
                 ),
                 controller: searchController,
                 onChanged: _onSearchChanged,
@@ -94,6 +109,7 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
           ),
         ],
       ),
+      drawer: const DashboardDrawer(),
       body: state.state == DashboardConcreteState.loading
           ? const Center(child: CircularProgressIndicator())
           : state.hasData
@@ -109,13 +125,18 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
                           itemBuilder: (context, index) {
                             final product = state.productList[index];
                             return ListTile(
-                              leading: CircleAvatar(
-                                  backgroundImage:
-                                      NetworkImage(product.thumbnail)),
-                              title: Text(product.title),
-                              trailing: Text('\$${product.price}'),
+                              leading: CircleAvatar(backgroundImage: NetworkImage(product.thumbnail)),
+                              title: Text(
+                                product.title,
+                                style: Theme.of(context).textTheme.bodyLarge,
+                              ),
+                              trailing: Text(
+                                '\$${product.price}',
+                                style: Theme.of(context).textTheme.bodyMedium,
+                              ),
                               subtitle: Text(
                                 product.description,
+                                style: Theme.of(context).textTheme.bodyMedium,
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                               ),
