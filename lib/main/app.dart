@@ -1,15 +1,7 @@
-import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project/routes/app_route.gr.dart';
+import 'package:flutter_project/shared/theme/app_theme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-final initializationProvider = FutureProvider<Unit>(
-  (ref) async {
-    // final authNotifier = ref.read(authNotifierProvider.notifier);
-    // await authNotifier.checkIfAuthenticated();
-    return unit;
-  },
-);
 
 class MyApp extends ConsumerWidget {
   MyApp({super.key});
@@ -18,8 +10,12 @@ class MyApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final themeMode = ref.watch(appThemeProvider);
     return MaterialApp.router(
       title: 'Flutter TDD',
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
+      themeMode: themeMode,
       routeInformationParser: appRouter.defaultRouteParser(),
       routerDelegate: appRouter.delegate(),
       debugShowCheckedModeBanner: false,
