@@ -1,49 +1,49 @@
 import 'dart:async';
-
 import 'package:flutter_project/shared/data/local/storage_service.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
-class SharedPrefsService implements StroageService {
-  SharedPreferences? sharedPreferences;
+class HiveService implements StroageService {
+  Box? box;
 
-  final Completer<SharedPreferences> initCompleter =
-      Completer<SharedPreferences>();
+  final Completer<Box> initCompleter = Completer<Box>();
 
   @override
   void init() {
-    initCompleter.complete(SharedPreferences.getInstance());
+    initCompleter.complete(Hive.openBox('HiveService'));
   }
 
   @override
-  bool get hasInitialized => sharedPreferences != null;
+  bool get hasInitialized => initCompleter.isCompleted;
 
   @override
   Future<Object?> get(String key) async {
-    sharedPreferences = await initCompleter.future;
-    return sharedPreferences!.get(key);
+    box = await initCompleter.future;
+    return box?.get(key);
   }
 
   @override
   Future<void> clear() async {
-    sharedPreferences = await initCompleter.future;
-    await sharedPreferences!.clear();
+    box = await initCompleter.future;
+    await box?.clear();
   }
 
   @override
   Future<bool> has(String key) async {
-    sharedPreferences = await initCompleter.future;
-    return sharedPreferences?.containsKey(key) ?? false;
+    box = await initCompleter.future;
+    return box?.containsKey(key) ?? false;
   }
 
   @override
   Future<bool> remove(String key) async {
-    sharedPreferences = await initCompleter.future;
-    return await sharedPreferences!.remove(key);
+    box = await initCompleter.future;
+    await box?.delete(key);
+    return true;
   }
 
   @override
   Future<bool> set(String key, data) async {
-    sharedPreferences = await initCompleter.future;
-    return await sharedPreferences!.setString(key, data.toString());
+    box = await initCompleter.future;
+    await box?.put(key, data.toString());
+    return true;
   }
 }
