@@ -7,18 +7,18 @@ import '../../../../fixtures/data/user_map.dart';
 import '../../../../fixtures/dummy_data.dart';
 
 void main() {
-  late StroageService stroageService;
+  late StorageService storageService;
   late UserDataSource userDataSource;
   setUpAll(() {
-    stroageService = MockStorageService();
-    userDataSource = UserLocalDatasource(stroageService);
+    storageService = MockStorageService();
+    userDataSource = UserLocalDatasource(storageService);
   });
   test(
     'Should return valid User model when user was found',
     () async {
       // arrange
       when(
-        () => stroageService.get(any()),
+        () => storageService.get(any()),
       ).thenAnswer(
         (invocation) async => userCachedData,
       );
@@ -35,7 +35,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.get(any()),
+        () => storageService.get(any()),
       ).thenAnswer(
         (invocation) async => null,
       );
@@ -54,7 +54,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.set(any(), any()),
+        () => storageService.set(any(), any()),
       ).thenAnswer(
         (invocation) async => true,
       );
@@ -73,7 +73,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.set(any(), any()),
+        () => storageService.set(any(), any()),
       ).thenAnswer(
         (invocation) async => false,
       );
@@ -92,7 +92,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.remove(any()),
+        () => storageService.remove(any()),
       ).thenAnswer(
         (invocation) async => true,
       );
@@ -111,7 +111,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.remove(any()),
+        () => storageService.remove(any()),
       ).thenAnswer(
         (invocation) async => false,
       );
@@ -130,7 +130,7 @@ void main() {
       // arrange
 
       when(
-        () => stroageService.has(any()),
+        () => storageService.has(any()),
       ).thenAnswer(
         (invocation) async => false,
       );
@@ -143,7 +143,7 @@ void main() {
       expect(data, false);
 
       when(
-        () => stroageService.has(any()),
+        () => storageService.has(any()),
       ).thenAnswer(
         (invocation) async => true,
       );
@@ -158,4 +158,4 @@ void main() {
   );
 }
 
-class MockStorageService extends Mock implements StroageService {}
+class MockStorageService extends Mock implements StorageService {}

@@ -15,21 +15,21 @@ final appThemeProvider = StateNotifierProvider<AppThemeModeNotifier, ThemeMode>(
 );
 
 class AppThemeModeNotifier extends StateNotifier<ThemeMode> {
-  final StroageService stroageService;
+  final StorageService storageService;
 
   ThemeMode currentTheme = ThemeMode.light;
 
-  AppThemeModeNotifier(this.stroageService) : super(ThemeMode.light) {
+  AppThemeModeNotifier(this.storageService) : super(ThemeMode.light) {
     getCurrentTheme();
   }
 
   void toggleTheme() {
     state = state == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark;
-    stroageService.set(APP_THEME_STORAGE_KEY, state.name);
+    storageService.set(APP_THEME_STORAGE_KEY, state.name);
   }
 
   void getCurrentTheme() async {
-    final theme = await stroageService.get(APP_THEME_STORAGE_KEY);
+    final theme = await storageService.get(APP_THEME_STORAGE_KEY);
     final value = ThemeMode.values.byName('${theme ?? 'light'}');
     state = value;
   }

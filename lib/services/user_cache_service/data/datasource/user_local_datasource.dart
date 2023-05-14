@@ -16,16 +16,16 @@ abstract class UserDataSource {
 }
 
 class UserLocalDatasource extends UserDataSource {
-  UserLocalDatasource(this.stroageService);
+  UserLocalDatasource(this.storageService);
 
-  final StroageService stroageService;
+  final StorageService storageService;
 
   @override
   String get storageKey => USER_LOCAL_STORAGE_KEY;
 
   @override
   Future<Either<AppException, User>> fetchUser() async {
-    final data = await stroageService.get(storageKey);
+    final data = await storageService.get(storageKey);
     if (data == null) {
       return Left(
         AppException(
@@ -42,16 +42,16 @@ class UserLocalDatasource extends UserDataSource {
 
   @override
   Future<bool> saveUser({required User user}) async {
-    return await stroageService.set(storageKey, jsonEncode(user.toJson()));
+    return await storageService.set(storageKey, jsonEncode(user.toJson()));
   }
 
   @override
   Future<bool> deleteUser() async {
-    return await stroageService.remove(storageKey);
+    return await storageService.remove(storageKey);
   }
 
   @override
   Future<bool> hasUser() async {
-    return await stroageService.has(storageKey);
+    return await storageService.has(storageKey);
   }
 }

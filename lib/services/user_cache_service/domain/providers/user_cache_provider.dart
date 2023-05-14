@@ -5,7 +5,7 @@ import 'package:flutter_project/shared/data/local/storage_service.dart';
 import 'package:flutter_project/shared/domain/providers/sharedpreferences_storage_service_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final userDatasourceProvider = Provider.family<UserDataSource, StroageService>(
+final userDatasourceProvider = Provider.family<UserDataSource, StorageService>(
   (_, networkService) => UserLocalDatasource(networkService),
 );
 
