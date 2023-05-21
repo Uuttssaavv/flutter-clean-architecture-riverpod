@@ -19,8 +19,10 @@ dependencies:
     sdk: flutter
   flutter_riverpod: ^2.0.2
   freezed_annotation: ^2.2.0
+  hive_flutter: ^1.1.0
   json_annotation: ^4.7.0
-  shared_preferences: ^2.0.17
+  # shared_preferences: ^2.0.17
+  path_provider: ^2.0.13
   state_notifier: ^0.7.2+1
 
 dev_dependencies:
@@ -30,6 +32,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   freezed: ^2.2.0
+  hive_test: ^1.0.1
   http_mock_adapter: ^0.3.3
   json_serializable: ^6.5.3
   mocktail: ^0.3.0
