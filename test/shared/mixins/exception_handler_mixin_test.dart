@@ -53,10 +53,10 @@ void main() {
         },
       );
       test(
-        'handle exception handles DioError with statusCode 1',
+        'handle exception handles DioException with statusCode 1',
         () async {
           when(() => mockDioNetworkServide.dio.get(any())).thenThrow(
-            DioError(requestOptions: RequestOptions(path: '')),
+            DioException(requestOptions: RequestOptions(path: '')),
           );
           final resp = await mockDioNetworkServide.get('');
           resp.fold(

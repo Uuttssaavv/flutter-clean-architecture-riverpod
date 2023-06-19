@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_project/features/authentication/presentation/providers/auth_providers.dart';
 import 'package:flutter_project/features/authentication/presentation/providers/state/auth_state.dart';
 import 'package:flutter_project/features/authentication/presentation/widgets/auth_field.dart';
-import 'package:flutter_project/routes/app_route.gr.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../routes/app_route.dart';
+
+@RoutePage() 
 class LoginScreen extends ConsumerWidget {
   static const routeName = '/loginScreen';
 
@@ -26,7 +28,7 @@ class LoginScreen extends ConsumerWidget {
           ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(content: Text(next.exception.message.toString())));
         } else if (next is Success) {
-          AutoRouter.of(context).pushAndPopUntil(const DashboardScreen(),
+          AutoRouter.of(context).pushAndPopUntil(const DashboardRoute(),
               predicate: (_) => false);
         }
       }),

@@ -7,14 +7,14 @@ class TextThemes {
 
   static TextTheme get textTheme {
     return const TextTheme(
-      bodyText1: AppTextStyles.bodyLg,
-      bodyText2: AppTextStyles.body,
-      subtitle1: AppTextStyles.bodySm,
-      subtitle2: AppTextStyles.bodyXs,
-      headline1: AppTextStyles.h1,
-      headline2: AppTextStyles.h2,
-      headline3: AppTextStyles.h3,
-      headline4: AppTextStyles.h4,
+      bodyLarge: AppTextStyles.bodyLg,
+      bodyMedium: AppTextStyles.body,
+      titleMedium: AppTextStyles.bodySm,
+      titleSmall: AppTextStyles.bodyXs,
+      displayLarge: AppTextStyles.h1,
+      displayMedium: AppTextStyles.h2,
+      displaySmall: AppTextStyles.h3,
+      headlineMedium: AppTextStyles.h4,
     );
   }
 
@@ -22,14 +22,14 @@ class TextThemes {
 
   static TextTheme get darkTextTheme {
     return TextTheme(
-      bodyText1: AppTextStyles.bodyLg.copyWith(color: AppColors.white),
-      bodyText2: AppTextStyles.body.copyWith(color: AppColors.white),
-      subtitle1: AppTextStyles.bodySm.copyWith(color: AppColors.white),
-      subtitle2: AppTextStyles.bodyXs.copyWith(color: AppColors.white),
-      headline1: AppTextStyles.h1.copyWith(color: AppColors.white),
-      headline2: AppTextStyles.h2.copyWith(color: AppColors.white),
-      headline3: AppTextStyles.h3.copyWith(color: AppColors.white),
-      headline4: AppTextStyles.h4.copyWith(color: AppColors.white),
+      bodyLarge: AppTextStyles.bodyLg.copyWith(color: AppColors.white),
+      bodyMedium: AppTextStyles.body.copyWith(color: AppColors.white),
+      titleMedium: AppTextStyles.bodySm.copyWith(color: AppColors.white),
+      titleSmall: AppTextStyles.bodyXs.copyWith(color: AppColors.white),
+      displayLarge: AppTextStyles.h1.copyWith(color: AppColors.white),
+      displayMedium: AppTextStyles.h2.copyWith(color: AppColors.white),
+      displaySmall: AppTextStyles.h3.copyWith(color: AppColors.white),
+      headlineMedium: AppTextStyles.h4.copyWith(color: AppColors.white),
     );
   }
 
@@ -37,14 +37,14 @@ class TextThemes {
 
   static TextTheme get primaryTextTheme {
     return TextTheme(
-      bodyText1: AppTextStyles.bodyLg.copyWith(color: AppColors.primary),
-      bodyText2: AppTextStyles.body.copyWith(color: AppColors.primary),
-      subtitle1: AppTextStyles.bodySm.copyWith(color: AppColors.primary),
-      subtitle2: AppTextStyles.bodyXs.copyWith(color: AppColors.primary),
-      headline1: AppTextStyles.h1.copyWith(color: AppColors.primary),
-      headline2: AppTextStyles.h2.copyWith(color: AppColors.primary),
-      headline3: AppTextStyles.h3.copyWith(color: AppColors.primary),
-      headline4: AppTextStyles.h4.copyWith(color: AppColors.primary),
+      bodyLarge: AppTextStyles.bodyLg.copyWith(color: AppColors.primary),
+      bodyMedium: AppTextStyles.body.copyWith(color: AppColors.primary),
+      titleMedium: AppTextStyles.bodySm.copyWith(color: AppColors.primary),
+      titleSmall: AppTextStyles.bodyXs.copyWith(color: AppColors.primary),
+      displayLarge: AppTextStyles.h1.copyWith(color: AppColors.primary),
+      displayMedium: AppTextStyles.h2.copyWith(color: AppColors.primary),
+      displaySmall: AppTextStyles.h3.copyWith(color: AppColors.primary),
+      headlineMedium: AppTextStyles.h4.copyWith(color: AppColors.primary),
     );
   }
 }

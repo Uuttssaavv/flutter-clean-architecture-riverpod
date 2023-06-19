@@ -1,9 +1,11 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_project/features/splash/presentation/providers/splash_provider.dart';
-import 'package:flutter_project/routes/app_route.gr.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../routes/app_route.dart';
+
+@RoutePage()
 class SplashScreen extends ConsumerStatefulWidget {
   static const String routeName = '/splashScreen';
   const SplashScreen({Key? key}) : super(key: key);
@@ -20,8 +22,8 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
     Future.delayed(const Duration(seconds: 2), () async {
       final isUserLoggedIn = await ref.read(userLoginCheckProvider.future);
       final route = isUserLoggedIn
-          ? const DashboardScreen()
-          : LoginScreen() as PageRouteInfo;
+          ? const DashboardRoute()
+          : LoginRoute() as PageRouteInfo;
       // ignore: use_build_context_synchronously
       AutoRouter.of(context).pushAndPopUntil(
         route,
@@ -33,7 +35,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: const Center(
         child: Text(
           'Splash Screen',
