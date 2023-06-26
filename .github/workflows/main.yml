@@ -16,6 +16,6 @@ jobs:
           flutter-version: "3.10.5"
       - run: flutter pub get
       - run: flutter analyze .
-      - run: dart format --set-exit-if-changed .
+      - run: flutter format --set-exit-if-changed .
       - run: flutter test --coverage
       - run: flutter pub run test_coverage_badge
