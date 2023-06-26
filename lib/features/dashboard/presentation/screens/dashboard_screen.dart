@@ -7,7 +7,7 @@ import 'package:flutter_project/features/dashboard/presentation/providers/state/
 import 'package:flutter_project/features/dashboard/presentation/widgets/dashboard_drawer.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-@RoutePage() 
+@RoutePage()
 class DashboardScreen extends ConsumerStatefulWidget {
   static const String routeName = 'DashboardScreen';
 

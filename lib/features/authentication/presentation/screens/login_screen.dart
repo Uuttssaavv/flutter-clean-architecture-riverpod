@@ -7,7 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../routes/app_route.dart';
 
-@RoutePage() 
+@RoutePage()
 class LoginScreen extends ConsumerWidget {
   static const routeName = '/loginScreen';
 
@@ -28,8 +28,8 @@ class LoginScreen extends ConsumerWidget {
           ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(content: Text(next.exception.message.toString())));
         } else if (next is Success) {
-          AutoRouter.of(context).pushAndPopUntil(const DashboardRoute(),
-              predicate: (_) => false);
+          AutoRouter.of(context)
+              .pushAndPopUntil(const DashboardRoute(), predicate: (_) => false);
         }
       }),
     );
