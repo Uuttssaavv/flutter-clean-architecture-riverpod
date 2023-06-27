@@ -35,11 +35,11 @@ mixin ExceptionHandlerMixin on NetworkService {
           identifier = 'Socket Exception ${e.message}\n at  $endpoint';
           break;
 
-        case DioError:
-          e as DioError;
+        case DioException:
+          e as DioException;
           message = e.response?.data?['message'] ?? 'Internal Error occured';
           statusCode = 1;
-          identifier = 'DioError ${e.message} \nat  $endpoint';
+          identifier = 'DioException ${e.message} \nat  $endpoint';
           break;
 
         default:

@@ -101,13 +101,16 @@ class FakeDio extends Fake implements Dio {
   }
 
   @override
-  Future<Response<T>> get<T>(String path,
-      {Map<String, dynamic>? queryParameters,
-      Options? options,
-      CancelToken? cancelToken,
-      ProgressCallback? onReceiveProgress}) async {
+  Future<Response<T>> get<T>(
+    String path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    Options? options,
+    CancelToken? cancelToken,
+    ProgressCallback? onReceiveProgress,
+  }) async {
     if (_reponse == null) {
-      throw DioError(requestOptions: RequestOptions(path: path));
+      throw DioException(requestOptions: RequestOptions(path: path));
     }
     return _reponse as Response<T>;
   }
@@ -121,7 +124,7 @@ class FakeDio extends Fake implements Dio {
       ProgressCallback? onSendProgress,
       ProgressCallback? onReceiveProgress}) async {
     if (_reponse == null) {
-      throw DioError(requestOptions: RequestOptions(path: path));
+      throw DioException(requestOptions: RequestOptions(path: path));
     }
     return _reponse as Response<T>;
   }

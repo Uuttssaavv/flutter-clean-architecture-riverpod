@@ -1,114 +1,95 @@
-// **************************************************************************
-// AutoRouteGenerator
-// **************************************************************************
-
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 // **************************************************************************
-// AutoRouteGenerator
+// AutoRouterGenerator
 // **************************************************************************
-//
+
 // ignore_for_file: type=lint
+// coverage:ignore-file
 
-// ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:auto_route/auto_route.dart' as _i4;
-import 'package:flutter/material.dart' as _i5;
+part of 'app_route.dart';
 
-import '../features/authentication/presentation/screens/login_screen.dart'
-    as _i2;
-import '../features/dashboard/presentation/screens/dashboard_screen.dart'
-    as _i3;
-import '../features/splash/presentation/screens/splash_screen.dart' as _i1;
-
-class AppRouter extends _i4.RootStackRouter {
-  AppRouter([_i5.GlobalKey<_i5.NavigatorState>? navigatorKey])
-      : super(navigatorKey);
+abstract class _$AppRouter extends RootStackRouter {
+  // ignore: unused_element
+  _$AppRouter({super.navigatorKey});
 
   @override
-  final Map<String, _i4.PageFactory> pagesMap = {
-    SplashScreen.name: (routeData) {
-      return _i4.MaterialPageX<dynamic>(
+  final Map<String, PageFactory> pagesMap = {
+    SplashRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const _i1.SplashScreen(),
+        child: const SplashScreen(),
       );
     },
-    LoginScreen.name: (routeData) {
-      final args = routeData.argsAs<LoginScreenArgs>(
-          orElse: () => const LoginScreenArgs());
-      return _i4.MaterialPageX<dynamic>(
+    DashboardRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: _i2.LoginScreen(key: args.key),
+        child: const DashboardScreen(),
       );
     },
-    DashboardScreen.name: (routeData) {
-      return _i4.MaterialPageX<dynamic>(
+    LoginRoute.name: (routeData) {
+      final args = routeData.argsAs<LoginRouteArgs>(
+          orElse: () => const LoginRouteArgs());
+      return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const _i3.DashboardScreen(),
+        child: LoginScreen(key: args.key),
       );
     },
   };
-
-  @override
-  List<_i4.RouteConfig> get routes => [
-        _i4.RouteConfig(
-          SplashScreen.name,
-          path: '/',
-        ),
-        _i4.RouteConfig(
-          LoginScreen.name,
-          path: '/loginScreen',
-        ),
-        _i4.RouteConfig(
-          DashboardScreen.name,
-          path: 'DashboardScreen',
-        ),
-      ];
 }
 
 /// generated route for
-/// [_i1.SplashScreen]
-class SplashScreen extends _i4.PageRouteInfo<void> {
-  const SplashScreen()
+/// [SplashScreen]
+class SplashRoute extends PageRouteInfo<void> {
+  const SplashRoute({List<PageRouteInfo>? children})
       : super(
-          SplashScreen.name,
-          path: '/',
+          SplashRoute.name,
+          initialChildren: children,
         );
 
-  static const String name = 'SplashScreen';
+  static const String name = 'SplashRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
-/// [_i2.LoginScreen]
-class LoginScreen extends _i4.PageRouteInfo<LoginScreenArgs> {
-  LoginScreen({_i5.Key? key})
+/// [DashboardScreen]
+class DashboardRoute extends PageRouteInfo<void> {
+  const DashboardRoute({List<PageRouteInfo>? children})
       : super(
-          LoginScreen.name,
-          path: '/loginScreen',
-          args: LoginScreenArgs(key: key),
+          DashboardRoute.name,
+          initialChildren: children,
         );
 
-  static const String name = 'LoginScreen';
+  static const String name = 'DashboardRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
-class LoginScreenArgs {
-  const LoginScreenArgs({this.key});
+/// generated route for
+/// [LoginScreen]
+class LoginRoute extends PageRouteInfo<LoginRouteArgs> {
+  LoginRoute({
+    Key? key,
+    List<PageRouteInfo>? children,
+  }) : super(
+          LoginRoute.name,
+          args: LoginRouteArgs(key: key),
+          initialChildren: children,
+        );
 
-  final _i5.Key? key;
+  static const String name = 'LoginRoute';
+
+  static const PageInfo<LoginRouteArgs> page = PageInfo<LoginRouteArgs>(name);
+}
+
+class LoginRouteArgs {
+  const LoginRouteArgs({this.key});
+
+  final Key? key;
 
   @override
   String toString() {
-    return 'LoginScreenArgs{key: $key}';
+    return 'LoginRouteArgs{key: $key}';
   }
-}
-
-/// generated route for
-/// [_i3.DashboardScreen]
-class DashboardScreen extends _i4.PageRouteInfo<void> {
-  const DashboardScreen()
-      : super(
-          DashboardScreen.name,
-          path: 'DashboardScreen',
-        );
-
-  static const String name = 'DashboardScreen';
 }
