@@ -9,30 +9,30 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  auto_route: ^7.4.0
-  connectivity_plus: ^4.0.1
-  cupertino_icons: ^1.0.2
+  auto_route: ^7.8.4
+  connectivity_plus: ^5.0.1
+  cupertino_icons: ^1.0.6
   dartz: ^0.10.1
-  dio: ^5.2.1+1
+  dio: ^5.3.3
   equatable: ^2.0.5
   flutter:
     sdk: flutter
-  flutter_riverpod: ^2.0.2
-  freezed_annotation: ^2.2.0
-  json_annotation: ^4.7.0
-  shared_preferences: ^2.0.17
+  flutter_riverpod: ^2.4.4
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  shared_preferences: ^2.2.2
   state_notifier: ^0.7.2+1
 
 dev_dependencies:
-  auto_route_generator: ^7.1.1
-  build_runner: ^2.4.5
-  flutter_lints: ^2.0.0
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.6
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  freezed: ^2.2.0
-  http_mock_adapter: ^0.4.4
-  json_serializable: ^6.5.3
-  mocktail: ^0.3.0
+  freezed: ^2.4.5
+  http_mock_adapter: ^0.6.0
+  json_serializable: ^6.7.1
+  mocktail: ^1.0.1
   state_notifier_test: ^0.0.9
   test_coverage_badge: ^0.2.0
 
