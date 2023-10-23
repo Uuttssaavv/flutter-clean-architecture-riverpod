@@ -5,3 +5,4 @@ linter:
     omit_local_variable_types: false
     constant_identifier_names: false
     non_constant_identifier_names: false
+    use_super_parameters: false
