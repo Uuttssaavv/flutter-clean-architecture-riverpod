@@ -1,4 +1,4 @@
-name: Enabimnio actions
+name: Clean Arch Riverpod Actions(Flutter)
 
 on: [pull_request]
 
