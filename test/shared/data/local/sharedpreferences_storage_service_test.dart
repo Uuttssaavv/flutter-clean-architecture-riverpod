@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../fixtures/data/user_map.dart';
 
 void main() {
-  late StroageService stroageService;
+  late StorageService stroageService;
 
   setUpAll(() {
     TestWidgetsFlutterBinding.ensureInitialized();

@@ -12,7 +12,7 @@ void main() {
   late dynamic dashboardRespository;
   setUpAll(
     () {
-      networkService = providerContainer.read(netwokServiceProvider);
+      networkService = providerContainer.read(networkServiceProvider);
       dashboardDataSource =
           providerContainer.read(dashboardDatasourceProvider(networkService));
       dashboardRespository =

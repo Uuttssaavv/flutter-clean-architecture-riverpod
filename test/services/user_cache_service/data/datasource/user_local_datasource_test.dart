@@ -7,7 +7,7 @@ import '../../../../fixtures/data/user_map.dart';
 import '../../../../fixtures/dummy_data.dart';
 
 void main() {
-  late StroageService stroageService;
+  late StorageService stroageService;
   late UserDataSource userDataSource;
   setUpAll(() {
     stroageService = MockStorageService();
@@ -158,4 +158,4 @@ void main() {
   );
 }
 
-class MockStorageService extends Mock implements StroageService {}
+class MockStorageService extends Mock implements StorageService {}

@@ -10,7 +10,7 @@ void main() {
     addTearDown(providerContainer.dispose);
 
     expect(
-      providerContainer.read(netwokServiceProvider),
+      providerContainer.read(networkServiceProvider),
       isA<NetworkService>(),
     );
   });

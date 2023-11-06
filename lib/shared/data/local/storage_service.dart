@@ -1,5 +1,5 @@
 /// Storage service interface
-abstract class StroageService {
+abstract class StorageService {
   void init();
 
   bool get hasInitialized;
