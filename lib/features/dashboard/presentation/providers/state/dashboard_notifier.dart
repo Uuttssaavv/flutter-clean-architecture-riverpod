@@ -1,6 +1,6 @@
-import 'package:dartz/dartz.dart';
 import 'package:flutter_project/features/dashboard/domain/repositories/dashboard_repository.dart';
 import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/paginated_response.dart';
 import 'package:flutter_project/shared/domain/models/product/product_model.dart';
 import 'package:flutter_project/shared/exceptions/http_exception.dart';

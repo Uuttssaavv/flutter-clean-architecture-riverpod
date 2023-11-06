@@ -1,5 +1,5 @@
 //test for filename
-import 'package:dartz/dartz.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/features/dashboard/domain/repositories/dashboard_repository.dart';
 import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_notifier.dart';
 import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';

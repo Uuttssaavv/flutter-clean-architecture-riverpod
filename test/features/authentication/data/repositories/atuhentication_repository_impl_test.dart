@@ -1,4 +1,4 @@
-import 'package:dartz/dartz.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/features/authentication/data/datasource/auth_remote_data_source.dart';
 import 'package:flutter_project/features/authentication/data/repositories/atuhentication_repository_impl.dart';
 import 'package:flutter_project/features/authentication/domain/repositories/auth_repository.dart';
