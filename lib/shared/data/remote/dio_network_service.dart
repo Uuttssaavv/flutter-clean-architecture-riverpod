@@ -1,8 +1,8 @@
-import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_project/configs/app_configs.dart';
 import 'package:flutter_project/shared/data/remote/network_service.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/response.dart' as response;
 import 'package:flutter_project/shared/exceptions/http_exception.dart';
 import 'package:flutter_project/shared/globals.dart';

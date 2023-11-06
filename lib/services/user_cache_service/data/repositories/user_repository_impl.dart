@@ -1,6 +1,6 @@
-import 'package:dartz/dartz.dart';
 import 'package:flutter_project/services/user_cache_service/data/datasource/user_local_datasource.dart';
 import 'package:flutter_project/services/user_cache_service/domain/repositories/user_cache_repository.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/user/user_model.dart';
 import 'package:flutter_project/shared/exceptions/http_exception.dart';
 

@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_project/shared/data/remote/remote.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/response.dart' as response;
 import 'package:flutter_project/shared/exceptions/http_exception.dart';
 

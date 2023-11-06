@@ -1,8 +1,8 @@
-import 'package:dartz/dartz.dart';
 import 'package:flutter_project/features/authentication/domain/repositories/auth_repository.dart';
 import 'package:flutter_project/features/authentication/presentation/providers/state/auth_notifier.dart';
 import 'package:flutter_project/features/authentication/presentation/providers/state/auth_state.dart';
 import 'package:flutter_project/services/user_cache_service/domain/repositories/user_cache_repository.dart';
+import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/models.dart';
 import 'package:flutter_project/shared/exceptions/http_exception.dart';
 import 'package:flutter_test/flutter_test.dart';
