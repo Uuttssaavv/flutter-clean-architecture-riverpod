@@ -11,9 +11,9 @@ final dashboardDatasourceProvider =
 );
 
 final dashboardRepositoryProvider = Provider<DashboardRepository>((ref) {
-  final networkService = ref.watch(netwokServiceProvider);
+  final networkService = ref.watch(networkServiceProvider);
   final datasource = ref.watch(dashboardDatasourceProvider(networkService));
-  final respository = DashboardRepositoryImpl(datasource);
+  final repository = DashboardRepositoryImpl(datasource);
 
-  return respository;
+  return repository;
 });

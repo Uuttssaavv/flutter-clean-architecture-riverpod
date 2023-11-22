@@ -36,7 +36,7 @@ class LoginUserRemoteDataSource implements LoginUserDataSource {
     } catch (e) {
       return Left(
         AppException(
-          message: 'Unknown error occured',
+          message: 'Unknown error occurred',
           statusCode: 1,
           identifier: '${e.toString()}\nLoginUserRemoteDataSource.loginUser',
         ),
