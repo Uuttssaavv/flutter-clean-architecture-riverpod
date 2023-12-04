@@ -217,8 +217,6 @@ lib
 │ ├── main_staging.dart
 │ └── observers.dart
 │
-├──  configs
-│ └── app_configs.dart
 ├── routes
 │ ├── app_route.dart
 │ └── app_route.gr.dart
@@ -254,6 +252,7 @@ lib
 │ │ │ │ └── product_model.g.dart
 │ │ │ ├── user
 │ │ │ │ └── user_model.dart
+│ │ │ ├── either.dart
 │ │ │ ├── models.dart
 │ │ │ ├── paginated_response.dart
 │ │ │ ├── parse_response.dart
@@ -275,32 +274,32 @@ lib
 │ │ └── app_loading.dart
 │ └── globals.dart
 │
-├──  features
-│ ├──  authentication
-│ │ ├──  data
-│ │ │ ├──  datasource
-│ │ │ │ ├──  auth_local_data_source.dart
+├── features
+│ ├── authentication
+│ │ ├── data
+│ │ │ ├── datasource
+│ │ │ │ ├── auth_local_data_source.dart
 │ │ │ │ └── auth_remote_data_source.dart
 │ │ │ └── repositories
-│ │ │   └── atuhentication_repository_impl.dart
-│ │ ├──  domain
-│ │ │ ├──  providers
+│ │ │   └── authentication_repository_impl.dart
+│ │ ├── domain
+│ │ │ ├── providers
 │ │ │ │ └── login_provider.dart
 │ │ │ └── repositories
 │ │ │   └── auth_repository.dart
 │ │ └── presentation
-│ │   ├──  providers
-│ │   │ ├──  state
-│ │   │ │ ├──  auth_notifier.dart
-│ │   │ │ ├──  auth_state.dart
-│ │   │ │ └──  auth_state.freezed.dart
+│ │   ├── providers
+│ │   │ ├── state
+│ │   │ │ ├── auth_notifier.dart
+│ │   │ │ ├── auth_state.dart
+│ │   │ │ └── auth_state.freezed.dart
 │ │   │ └── auth_providers.dart
-│ │   ├──  screens
+│ │   ├── screens
 │ │   │ └── login_screen.dart
 │ │   └── widgets
-│ │     ├──  auth_field.dart
+│ │     ├── auth_field.dart
 │ │     └── button.dart
-│ ├──  dashboard
+│ ├── dashboard
 ....
 ```
 
