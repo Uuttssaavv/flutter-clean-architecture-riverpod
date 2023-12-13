@@ -3,9 +3,9 @@ import 'package:flutter_project/shared/domain/models/either.dart';
 import 'package:flutter_project/shared/domain/models/response.dart';
 
 class AppException implements Exception {
-  final String? message;
-  final int? statusCode;
-  final String? identifier;
+  final String message;
+  final int statusCode;
+  final String identifier;
 
   AppException({
     required this.message,
@@ -20,13 +20,13 @@ class AppException implements Exception {
 
 class CacheFailureException extends Equatable implements AppException {
   @override
-  String? get identifier => 'Cache failure exception';
+  String get identifier => 'Cache failure exception';
 
   @override
-  String? get message => 'Unable to save user';
+  String get message => 'Unable to save user';
 
   @override
-  int? get statusCode => 100;
+  int get statusCode => 100;
 
   @override
   List<Object?> get props => [message, statusCode, identifier];
