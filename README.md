@@ -207,8 +207,6 @@ run  `bash gencov.sh`
 
 ```
 lib
-├── configs
-│ └── app_configs.dart
 │
 ├── main
 │ ├── app.dart
