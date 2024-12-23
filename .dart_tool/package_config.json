@@ -3,708 +3,741 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-61.0.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-76.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "_macros",
+      "rootUri": "file:///Users/abank/Development/flutter/bin/cache/dart-sdk/pkg/_macros",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/analyzer-5.13.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/analyzer-6.11.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.3"
     },
     {
       "name": "args",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/args-2.4.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/args-2.6.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.3"
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "auto_route",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/auto_route-7.4.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/auto_route-7.9.2",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "auto_route_generator",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/auto_route_generator-7.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/auto_route_generator-7.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "build",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build-2.4.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build-2.4.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.6"
     },
     {
       "name": "build_config",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build_config-1.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build_config-1.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.6"
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build_daemon-4.0.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build_daemon-4.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.6"
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build_resolvers-2.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build_resolvers-2.4.3",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.6"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build_runner-2.4.5",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build_runner-2.4.14",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.6"
     },
     {
       "name": "build_runner_core",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/build_runner_core-7.2.10",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/build_runner_core-8.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.6"
     },
     {
       "name": "built_collection",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/built_collection-5.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/built_collection-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "built_value",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/built_value-8.6.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/built_value-8.9.3",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "characters",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/characters-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "checked_yaml",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "clock",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "code_builder",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/code_builder-4.5.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/code_builder-4.10.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.5"
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/collection-1.19.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "connectivity_plus",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/connectivity_plus-4.0.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/connectivity_plus-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "connectivity_plus_platform_interface",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/connectivity_plus_platform_interface-1.2.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/connectivity_plus_platform_interface-1.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "convert",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/convert-3.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/convert-3.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "coverage",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/coverage-1.6.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/coverage-1.11.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/crypto-3.0.6",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.5",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/dart_style-2.3.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/dart_style-2.3.7",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "dartz",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/dartz-0.10.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "dbus",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/dbus-0.7.8",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/dbus-0.7.10",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.17"
     },
     {
       "name": "diff_match_patch",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "dio",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/dio-5.2.1+1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/dio-5.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "equatable",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/equatable-2.0.5",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/equatable-2.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fake_async",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "ffi",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/ffi-2.0.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/ffi-2.1.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/file-6.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "fixnum",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "flutter",
-      "rootUri": "file:///Users/pablo384/development/flutter/packages/flutter",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/file-7.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter_lints",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/flutter_lints-2.0.1",
+      "name": "fixnum",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/abank/Development/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_lints",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter_riverpod",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/flutter_riverpod-2.3.6",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/flutter_riverpod-2.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/pablo384/development/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/abank/Development/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/pablo384/development/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/abank/Development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "freezed",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/freezed-2.5.7",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "freezed",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/freezed-2.3.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "freezed_annotation",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/freezed_annotation-2.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/freezed_annotation-2.4.4",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "frontend_server_client",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/frontend_server_client-3.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "glob",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/glob-2.1.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/glob-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "graphs",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/graphs-2.3.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/graphs-2.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "http_mock_adapter",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/http_mock_adapter-0.4.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/http_mock_adapter-0.4.4",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "http_multi_server",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/http_multi_server-3.2.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/http_multi_server-3.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.2"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/http_parser-4.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "io",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/io-1.0.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/io-1.0.5",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/json_annotation-4.8.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "json_serializable",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/json_serializable-6.7.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/json_annotation-4.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
+      "name": "json_serializable",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/json_serializable-6.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "lcov_dart",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/lcov_dart-7.0.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/lcov_dart-7.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/leak_tracker-10.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "lints",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "logging",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/logging-1.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/logging-1.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "macros",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/macros-0.1.3-main.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "mime",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/mime-1.0.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/mime-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
     },
     {
       "name": "mockito",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/mockito-5.4.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/mockito-5.4.5",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.6"
     },
     {
       "name": "mocktail",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/mocktail-0.3.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/mocktail-0.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "nm",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/nm-0.5.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/nm-0.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "node_preamble",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/node_preamble-2.0.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/node_preamble-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "package_config",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/package_config-2.1.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/package_config-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "path_provider_platform_interface",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_windows",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "petitparser",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/petitparser-5.4.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
-      "name": "platform",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/platform-3.1.0",
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/platform-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "pool",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/pool-1.5.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/pool-1.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
-      "name": "process",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/process-4.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "pub_semver",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/pub_semver-2.1.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/pub_semver-2.1.5",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "pubspec_parse",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/pubspec_parse-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
     },
     {
       "name": "riverpod",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/riverpod-2.3.6",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/riverpod-2.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences-2.1.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences-2.3.4",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.5"
     },
     {
       "name": "shared_preferences_android",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_android-2.1.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.5"
     },
     {
       "name": "shared_preferences_foundation",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.2.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.4",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "shared_preferences_linux",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "shared_preferences_platform_interface",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_platform_interface-2.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_platform_interface-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.2"
     },
     {
       "name": "shared_preferences_web",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_web-2.1.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.2",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "shared_preferences_windows",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "shelf",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shelf-1.4.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shelf-1.4.2",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "shelf_packages_handler",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shelf_packages_handler-3.0.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shelf_packages_handler-3.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "shelf_static",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shelf_static-1.1.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shelf_static-1.1.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "shelf_web_socket",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/shelf_web_socket-1.0.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/shelf_web_socket-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/pablo384/development/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/abank/Development/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "source_gen",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/source_gen-1.5.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "source_gen",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/source_gen-1.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
       "name": "source_helper",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/source_helper-1.3.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/source_helper-1.3.5",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "source_map_stack_trace",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/source_map_stack_trace-2.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/source_map_stack_trace-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "source_maps",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/source_maps-0.10.12",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/source_maps-0.10.13",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.3"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/source_span-1.9.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "stack_trace",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/stack_trace-1.11.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/stack_trace-1.12.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "state_notifier",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/state_notifier-0.7.2+1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/state_notifier-0.7.2+1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "state_notifier_test",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/state_notifier_test-0.0.10",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/state_notifier_test-0.0.10",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/stream_channel-2.1.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "stream_transform",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/stream_transform-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.1"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/string_scanner-1.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/test-1.24.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/test-1.25.8",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/test_api-0.7.3",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/test_core-0.5.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/test_core-0.6.5",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "test_coverage_badge",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/test_coverage_badge-0.2.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/test_coverage_badge-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "timing",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/timing-1.0.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/timing-1.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.4"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.5"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/vm_service-11.7.1",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/vm_service-14.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.3"
     },
     {
       "name": "watcher",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/watcher-1.1.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/watcher-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_socket",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/web_socket-0.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "3.3"
     },
     {
       "name": "webkit_inspection_protocol",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/webkit_inspection_protocol-1.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "win32",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/win32-5.0.3",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/webkit_inspection_protocol-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/xdg_directories-1.0.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
     },
     {
       "name": "xml",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/xml-6.3.0",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/xml-6.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "yaml",
-      "rootUri": "file:///Users/pablo384/.pub-cache/hosted/pub.dev/yaml-3.1.2",
+      "rootUri": "file:///Users/abank/.pub-cache/hosted/pub.dev/yaml-3.1.3",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
     },
     {
       "name": "flutter_project",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-19T20:07:54.217738Z",
+  "generated": "2024-12-23T05:16:14.026186Z",
   "generator": "pub",
-  "generatorVersion": "3.0.5"
+  "generatorVersion": "3.6.0",
+  "flutterRoot": "file:///Users/abank/Development/flutter",
+  "flutterVersion": "3.27.1",
+  "pubCache": "file:///Users/abank/.pub-cache"
 }
