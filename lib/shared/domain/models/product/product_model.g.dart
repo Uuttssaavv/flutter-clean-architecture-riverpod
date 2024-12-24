@@ -6,8 +6,9 @@ part of 'product_model.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_Product _$$_ProductFromJson(Map<String, dynamic> json) => _$_Product(
-      id: json['id'] as int? ?? 0,
+_$ProductImpl _$$ProductImplFromJson(Map<String, dynamic> json) =>
+    _$ProductImpl(
+      id: (json['id'] as num?)?.toInt() ?? 0,
       title: json['title'] as String? ?? '',
       description: json['description'] as String? ?? '',
       thumbnail: json['thumbnail'] as String? ?? '',
@@ -16,15 +17,15 @@ _$_Product _$$_ProductFromJson(Map<String, dynamic> json) => _$_Product(
       rating: (json['rating'] as num?)?.toDouble() ?? 0.0,
       discountPercentage:
           (json['discountPercentage'] as num?)?.toDouble() ?? 0.0,
-      stock: json['stock'] as int? ?? 0,
-      price: json['price'] as int? ?? 0,
+      stock: (json['stock'] as num?)?.toInt() ?? 0,
+      price: (json['price'] as num?)?.toInt() ?? 0,
       images: (json['images'] as List<dynamic>?)
               ?.map((e) => e as String)
               .toList() ??
           const [],
     );
 
-Map<String, dynamic> _$$_ProductToJson(_$_Product instance) =>
+Map<String, dynamic> _$$ProductImplToJson(_$ProductImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'title': instance.title,
